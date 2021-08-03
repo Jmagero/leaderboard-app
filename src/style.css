@@ -12,3 +12,11 @@ section {
     justify-content: space-between;
     margin: 0 20px;
 }
+
+footer {
+    left: 0;
+    bottom: 0;
+    border: solid 1px black;
+    position: fixed;
+    width: 100%;
+}
