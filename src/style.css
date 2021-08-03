@@ -1,0 +1,14 @@
+nav {
+    background-color: aqua;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
