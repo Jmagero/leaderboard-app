@@ -29,22 +29,19 @@
         <div class="leaderboard">
             <div class="leaderboard-title">
                 <h3>Recent Scores</h3>
-                <button type="submit">Refresh</button>
+                <button type="submit" id='refresh'>Refresh</button>
             </div>
             <ul class="leaderboard-scores">
-                <li>name 100</li>
-                <li>name 100</li>
-                <li>name 100</li>
             </ul>
         </div>
 
         <div>
             <h3>Add your score</h3>
-            <div id="form">
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your score">
+            <form id="form">
+                <input type="text" id='name' placeholder="Your name">
+                <input type="text" id='score' placeholder="Your score">
                 <button type="submit">submit</button>
-            </div>
+            </form>
         </div>
     </section>
     <footer>
