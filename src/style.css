@@ -1,55 +1,18 @@
-h1 {
-  margin: 20px 10px;
-}
-
-.leaderboard-title {
+.icons {
   display: flex;
-}
-
-h3 {
-  margin-right: 15px;
-}
-
-button {
-  background-color: #fff;
-  border: 1px solid;
-  box-shadow: 2px 3px;
-}
-
-.leaderboard-scores {
-  margin-top: 10px;
-  border: solid 3px black;
-}
-
-li {
-  list-style-type:  none;
-  
-}
-
-.leaderboard-scores li:nth-child(even){
-  background-color: #f2f2f2;
+  justify-content: space-around;
 }
 
 section {
   display: flex;
   justify-content: space-between;
-  margin: 0 4rem;
+  margin: 0 20px;
 }
 
-#form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+footer {
+  left: 0;
+  bottom: 0;
+  border: solid 1px black;
+  position: fixed;
+  width: 100%;
 }
-
-#name,
-#score{
-  margin: 10px 0;
-  border: solid 3px black;
-}
-
-#submit {
-  width: 30%;
-  display: flex;
-}
-
