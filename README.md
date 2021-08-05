@@ -4,7 +4,7 @@
 
 > A leaderboard website that displays scores submitted by different players and also allows you to submit your score.
 
-![screenshot](./screenshot.png)
+![image](https://user-images.githubusercontent.com/52098394/128402848-97413383-acd4-4953-9178-c66234beee08.png)
 
 The leaderboard website displays scores submitted by different players and also allows you to submit your score.
 It showcases JavaScript Promisses and Async/Await functionalities.
