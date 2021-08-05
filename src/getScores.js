@@ -8,6 +8,7 @@ const getScores = async () => {
 
 const addUser = (name, score) => {
   const li = document.createElement('li');
+  li.className = 'li';
   li.textContent = `${name}:${score}`;
   boardScore.appendChild(li);
 };
