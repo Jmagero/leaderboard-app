@@ -1,5 +1,7 @@
+
 h1 {
-  margin: 20px 10px;
+  max-width: 640px;
+  margin: 20px auto;
 }
 
 .leaderboard-title {
@@ -19,21 +21,23 @@ button {
 .leaderboard-scores {
   margin-top: 10px;
   border: solid 3px black;
+  padding: 0;
 }
 
 li {
-  list-style-type:  none;
-  
+  list-style-type: none;
+  padding: 0.5rem;
 }
 
-.leaderboard-scores li:nth-child(even){
-  background-color: #f2f2f2;
+.leaderboard-scores li:nth-child(even) {
+  background-color: #eee;
 }
 
 section {
   display: flex;
   justify-content: space-between;
-  margin: 0 4rem;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 #form {
@@ -43,7 +47,7 @@ section {
 }
 
 #name,
-#score{
+#score {
   margin: 10px 0;
   border: solid 3px black;
 }
@@ -52,4 +56,3 @@ section {
   width: 30%;
   display: flex;
 }
-
