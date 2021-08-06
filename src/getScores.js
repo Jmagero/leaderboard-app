@@ -16,7 +16,9 @@ const addUser = (name, score) => {
 const displayUsers = async () => {
   const scores = await getScores();
   boardScore.innerHTML = ``;
-  scores.forEach((element) => {
+  scores.sort((a,b) => {
+    return b.score-a.score})
+  .forEach((element) => {
     addUser(element.user, element.score);
   });
 };
