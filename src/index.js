@@ -15,6 +15,8 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const name = document.getElementById('name').value;
   const score = document.getElementById('score').value;
-  postScore(name, score);
+  postScore(name, score).then(displayUsers());
   form.reset();
 });
+
+window.addEventListener('load',displayUsers)
