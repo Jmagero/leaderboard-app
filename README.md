@@ -18,7 +18,7 @@ All data is preserved thanks to the external Leaderboard API service.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Jmagero/leaderboard-app/issues)
+[Live Demo Link](https://fervent-davinci-0906d5.netlify.app/)
 
 
 ## Getting Started
