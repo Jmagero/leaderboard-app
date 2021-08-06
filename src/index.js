@@ -19,4 +19,4 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
-window.addEventListener('load',displayUsers)
+window.addEventListener('load', displayUsers);
